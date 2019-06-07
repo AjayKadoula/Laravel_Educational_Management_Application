@@ -1,0 +1,597 @@
+
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+dl,
+dt,
+dd,
+ol,
+nav ul,
+nav li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+ol,
+ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* start editing from here */
+
+a {
+	text-decoration: none;
+}
+
+.txt-rt {
+	text-align: right;
+}
+
+
+/* text align right */
+
+.txt-lt {
+	text-align: left;
+}
+
+
+/* text align left */
+
+.txt-center {
+	text-align: center;
+	/*-- W3Layouts --*/
+}
+
+
+/* text align center */
+
+.float-rt {
+	float: right;
+}
+
+
+/* float right */
+
+.float-lt {
+	float: left;
+}
+
+
+/* float left */
+
+.clear {
+	clear: both;
+}
+
+
+/* clear float */
+
+.pos-relative {
+	position: relative;
+}
+
+
+/* Position Relative */
+
+.pos-absolute {
+	position: absolute;
+}
+
+
+/* Position Absolute */
+
+.vertical-base {
+	vertical-align: baseline;
+}
+
+
+/* vertical align baseline */
+
+.vertical-top {
+	vertical-align: top;
+}
+
+
+/* vertical align top */
+
+nav.vertical ul li {
+	display: block;
+}
+
+
+/* vertical menu */
+
+nav.horizontal ul li {
+	display: inline-block;
+}
+
+
+/* horizontal menu */
+
+img {
+	max-width: 100%;
+}
+
+
+/*--- end reset code ---*/
+
+body {
+	background: url(../images/content.jpg) no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	-ms-background-size: 100% 100%;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1.title {
+	text-align: center;
+	font-size: 2.5em;
+	letter-spacing: 2px;
+	padding: 0.5em 0;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.4);
+	text-transform: uppercase;
+}
+
+label.control-label {
+	color: #000;
+	margin-bottom: 10px;
+	font-style: italic;
+	font-size: 0.9em;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+form-group.field {
+	margin-bottom: 0;
+}
+
+.help-block {
+	color: #fb0000;
+}
+
+.has-error .help-block,
+.has-error .control-label,
+.has-error .radio,
+.has-error .checkbox,
+.has-error .radio-inline,
+.has-error .checkbox-inline,
+.has-error.radio label,
+.has-error.checkbox label,
+.has-error.radio-inline label,
+.has-error.checkbox-inline label {
+	color: #000;
+}
+
+.content-agileits {
+	width: 67%;
+	margin: 3em auto;
+}
+
+.left {
+	width: 50%;
+	float: left;
+	padding: 2em;
+	background: #fff;
+}
+
+.right {
+	float: left;
+	width: 50%;
+	background: url(../images/bg1.jpg) no-repeat center;
+	min-height: 663px;
+	background-size: cover;
+}
+
+input#firstname,
+input#lastname,
+input#inputEmail,
+input#Phone,
+input#inputPassword,
+input#inputPasswordConfirm {
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-o-border-radius: 0;
+	-ms-border-radius: 0;
+}
+
+input#firstname,
+input#lastname,
+input#inputEmail,
+input#Phone {
+	width: 100%;
+	height: 45px;
+	font-size: 16px;
+	border: 1px solid #337ab7;
+	font-weight: normal;
+	color: #000;
+}
+
+input#inputPassword,
+input#inputPasswordConfirm {
+	width: 100%;
+	height: 45px;
+	font-size: 16px;
+	font-weight: normal;
+	color: #000;
+	border: 1px solid #337ab7;
+}
+
+.help-block.with-errors {
+	color: #dc423f;
+}
+
+label.w3layouts {
+	display: inline-block;
+	background: #fff;
+	padding: 0.5em 0;
+	margin-left: 2em;
+	font-size: 1em;
+	color: #100d0d;
+	cursor: pointer;
+}
+
+.w3ls-opt input[type="radio"] {
+	margin-right: 0.5em;
+}
+
+.content-agileits button.btn.btn-lg {
+	width: 100%;
+	height: 45px;
+	margin: 0 auto;
+	text-align: center;
+	float: none;
+	color: #fff;
+	font-size: 17px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	display: block;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-o-border-radius: 0;
+	-ms-border-radius: 0;
+	background: #890f0a;
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	text-transform: uppercase;
+}
+
+.btn.disabled,
+.btn[disabled],
+fieldset[disabled] .btn {
+	background: #890f0a;
+	opacity: 0.7;
+}
+
+p.copyright-w3ls {
+	text-align: center;
+	font-size: 1em;
+	font-weight: normal;
+	padding: 0 0 2em 0;
+	color: #000;
+	letter-spacing: 1px;
+}
+
+p.copyright-w3ls a {
+	color: #000;
+	text-decoration: underline;
+}
+
+p.copyright-w3ls a:hover {
+	color: #ff4200;
+}
+
+
+/* -- Responsive code -- */
+@media screen and (max-width: 1080px) {
+	.form-group.col-sm-6.agileits-w3layouts,
+	.form-inline .form-group {
+		width: 100%;
+	}
+	.right {
+		min-height: 718px;
+	}
+}
+
+@media screen and (max-width: 1050px) {
+	.right {
+		min-height: 719px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.content-agileits {
+		width: 80%;
+	}
+
+}
+
+@media screen and (max-width: 900px) {
+	h1.title {
+		font-size: 2.3em;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	h1.title {
+		font-size: 2.1em;
+	}
+	.content-agileits {
+		width: 88%;
+	}
+	p.copyright-w3ls {
+		font-size: 0.9em;
+	}
+	input#firstname,
+	input#lastname,
+	input#inputEmail,
+	input#Phone {
+		height: 39px;
+	}
+	.right {
+		min-height: 694px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.left {
+		width: 100%;
+		float: none;
+	}
+	.right {
+		min-height: 372px;
+		width: 100%;
+		float: none;
+	}
+}
+
+@media screen and (max-width: 736px) {
+	.content-agileits {
+		margin: 3em auto 2em;
+	}
+}
+
+@media screen and (max-width: 667px) {
+	h1.title {
+		font-size: 1.8em;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	h1.title {
+		letter-spacing: 1px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	h1.title {
+		font-size: 1.8em;
+	}
+	p.copyright-w3ls {
+		padding: 1em;
+		line-height: 1.7;
+	}
+}
+
+@media screen and (max-width: 568px) {
+	.content-agileits button.btn.btn-lg {
+		padding: 0;
+		height: 43px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.content-agileits {
+		margin: 2em auto;
+	}
+	.content-agileits {
+		width: 88%;
+	}
+	h1.title {
+		font-size: 1.6em;
+	}
+	.right {
+		min-height: 330px;
+	}
+	.content-agileits {
+		margin: 2em auto 1em;
+	}
+}
+
+@media screen and (max-width: 414px) {
+	.content-agileits {
+		width: 96%;
+	}
+}
+
+@media screen and (max-width: 384px) {
+	h1.title {
+		font-size: 1.45em;
+	}
+	.content-agileits button.btn.btn-lg {
+		height: 37px;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.left {
+		padding: 2em 2em 1em;
+	}
+	.right {
+		min-height: 300px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	h1.title {
+		font-size: 1.4em;
+	}
+	label.w3layouts {
+		margin-left: 1em;
+	}
+	.left {
+		padding: 2em 1.5em 1em;
+	}
+	.content-agileits {
+		width: 98%;
+	}
+}
+span.required {
+    color: #fa625c;
+}
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+ div b {
+    background: url({{ asset('images/dropdown-arrow.png') }}) no-repeat 8px 15px;
+}
+active div b {
+    background-position: 8px -33px;
+}
+.pagination {
+    display: inline-block;
+   font-size: 20px;
+   margin-left:33% ;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color:blue;
+    color: white;
+}
+.bs-example{
+	margin: 20px;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+/* -- //Responsive code -- */
