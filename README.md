@@ -13,4 +13,4 @@ step 5:- Now migrate all table using command<br>
                  php artisan migrate<br>
 Now you have complete all process and visit this link<br>
                 http://127.0.0.1:8000<br>
- Happy Coding :))
+ Happy Coding :)
